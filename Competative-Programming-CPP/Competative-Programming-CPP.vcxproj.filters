@@ -13,9 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Median-SortedArray">
+      <UniqueIdentifier>{60172270-6ac2-4a5c-9b60-389dc5c79137}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSortedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceToExecute.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -24,6 +33,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Competative-Programming-CPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSortedArray.cpp">
+      <Filter>Source Files\Median-SortedArray</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceToExecute.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,11 +1,14 @@
 // Competative-Programming-CPP.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+#include "pch.h"
+#include "mediasortedarray.h"
 #include <iostream>
 
 int main()
 {
     std::cout << "Hello World!\n"; 
+	MediaSortedArray::Execute();
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
